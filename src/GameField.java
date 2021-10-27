@@ -26,7 +26,7 @@ public class GameField {
             default:
                 System.out.print("Your move: " + playerMove(Integer.parseInt(choice)));
                 System.out.println("\nComputer move: " + computerMove());
-                System.out.println();
+                System.out.println("win!");
                 break;
         }
     }

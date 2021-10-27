@@ -1,8 +1,6 @@
-public class Rules extends GameField {
+public class Rules {
 
-    public void isWin() {
-        System.out.println(options.indexOf("spock"));
-    }
+
 
 
 }
