@@ -1,12 +1,10 @@
 import com.github.freva.asciitable.AsciiTable;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Table {
 
-    private List<String> options;
-    private int argsLength;
+    private final List<String> options;
+    private final int argsLength;
 
     public Table(List<String> options, int argsLength) {
         this.options = options;
