@@ -27,7 +27,8 @@ public class GameField {
                 System.out.println("exit");
                 break;
             case ("?"):
-                new Table(options).drawTable();
+                new Table(options, options.size()).drawTable();
+                initGame();
                 break;
             default:
                 String playerMove = playerMove(Integer.parseInt(choice));
